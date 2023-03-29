@@ -12,14 +12,37 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_chi"
+        android:name="com.example.moneymanager.ui.chi.ChiFragment"
+        android:label="fragment_chi"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/nav_thu"
+        android:name="com.example.moneymanager.ui.thu.khoanThuFragment"
+        android:label="fragment_khoan_thu"
+        tools:layout="@layout/fragment_khoan_thu" />
+    <fragment
+        android:id="@+id/nav_gioithieu"
+        android:name="com.example.moneymanager.ui.gioithieu.GioiThieuFragment"
+        android:label="fragment_gioi_thieu"
+        tools:layout="@layout/fragment_gioi_thieu" />
+    <fragment
+        android:id="@+id/nav_thongke"
+        android:name="com.example.moneymanager.ui.thongke.ThongKeFragment"
+        android:label="fragment_thong_ke"
+        tools:layout="@layout/fragment_thong_ke" />
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.moneymanager.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="fragment_gallery"
         tools:layout="@layout/fragment_gallery" />
-
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.moneymanager.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="fragment_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.example.moneymanager.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
 </navigation>
